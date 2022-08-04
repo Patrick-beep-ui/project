@@ -1,0 +1,134 @@
+body {
+    background-color: white;
+}
+
+nav {
+    height: 380px;
+    margin-bottom: 0 auto;
+}
+
+.navigation ul {
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 60px;
+    height: 75%;
+}
+
+.navigation li {
+    color: rgb(240, 0, 0);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    opacity: 30%;
+}
+
+.navigation li.logo {
+    color: red;
+    font-size: 24px;
+    font-weight: 400;
+    opacity: 100%;
+    letter-spacing: 4px;
+}
+
+#banner {
+    background-image: url(https://github.com/FaztWeb/technews-html/blob/master/img/showcase2.jpg?raw=true);
+    height: 600px;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    padding: auto;
+}
+
+#content {
+    position: relative;
+    top: 25%;
+    text-align: center;
+    border: 3px solid white;
+    width: 400px;
+    height: 350px;
+    margin: auto;
+    margin-bottom: 0;
+}
+
+#content h1 {
+  font-size: 42px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  padding: auto;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    width: 400px;
+    height: 1000px;
+    overflow: scroll;
+    color:red;
+}
+
+h2 {
+    border: 1px dotted red;
+    color: red;
+    font-size: 14px;
+    line-height: 48px;
+    padding: 20px 30px;
+    margin: 30px 20px;
+    text-align: center;
+  }
+  
+  h3 {
+    color: red;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 20px 10px;
+  }
+  
+  p {
+    color: grey;
+    font-size: 16px;
+    line-height: 48px;
+    margin-top: 60px;
+    padding: 10px 20px;
+  }
+  
+  .pull-quote {
+    margin: 0 auto;
+    width: 400px;
+  }
+  
+  .byline {
+    border-bottom: 1px solid LightGrey;
+    border-top: 1px solid LightGrey;
+    color: DarkGrey;
+    font-size: 14px;
+    font-weight: 200;
+  }
+  
+  .share {
+    border: 1px solid LightGrey;
+    padding: 40px 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .share a {
+    background: red;
+    border: 1px solid red;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  .share a:hover {
+    background: white;
+    border: 1px solid red;
+    color: red;
+  
